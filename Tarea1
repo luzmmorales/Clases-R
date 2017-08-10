@@ -1,6 +1,8 @@
-Algoitmo area_rectangulo
 #1. Lea las lados de un rectángulo y como resultado muestre su área
 #2. Lea las coordenadas de dos puntos y muestre la distancia de Manhattan o City o distancia del taxista.
 #3. Lea las coordenadas de los vétices de un triángulo y determine si es un triángulo rectángulo.
 #4. Lea la longitud de tres segmentos y determine si con ellos se puede construir un triángulo.
 #5.Dadas las coordenadas de dos puntos de una recta, determinar si dicha recta es paralela a otra recta dada las coordenadas de dos puntos de la segunda recta.
+
+
+Algoitmo area_rectangulo
