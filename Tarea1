@@ -1,6 +1,32 @@
 #1. Lea las lados de un rectángulo y como resultado muestre su área
 #2. Lea las coordenadas de dos puntos y muestre la distancia de Manhattan o City o distancia del taxista.
 #3. Lea las coordenadas de los vétices de un triángulo y determine si es un triángulo rectángulo.
+
+Algoritmo triangulo_rectangulo
+  Real x1,y1,x2,y2,x3,y3,c1,c2,c3
+  
+  Funcion real triangulo_rectangulo(vx1,vx2,vy1,vy2)
+    real l
+  Inicio
+   l<-((vx2^2-vx1^2)^2+(vy2^2-vy1^2)^2)^(1/2)
+   retorne (l)
+  Fin
+  
+  Inicio
+    Escriba "introduzca tres coordenadas de la forma x1,y1,x2,y2,x3,y3)
+    Lea x1,y1,x2,y2,x3,y
+    C1<-lado(x2,x3,y2,y3)
+    c2<-lado(x1,x2,y1,y2)
+    c3<-lado(x1,x3,y1,y3)
+    
+    si ((c1=(c2^2+c3^2)^(1/2))||(c2=(c1^2+c3^2)^(1/2))||(c3=(c1^2+c2^2)^(1/2)))
+      Escriba "El triangulo es rectangulo"
+    sino
+      Escriba "El triangulo NO es rectangulo"
+    Fin
+    
+  Fin
+     
 #4. Lea la longitud de tres segmentos y determine si con ellos se puede construir un triángulo.
 #5.Dadas las coordenadas de dos puntos de una recta, determinar si dicha recta es paralela a otra recta dada las coordenadas de dos puntos de la segunda recta.
 
